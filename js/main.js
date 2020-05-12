@@ -1,0 +1,1 @@
+// skills text color: #FFAE39
