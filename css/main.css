@@ -23,7 +23,8 @@ h1 {
     text-transform: uppercase;
 }
 
-input, button {
+button {
+    width: 110px;
     border: 3px solid #93C47D;
     margin: 5px 5px;
     padding: 6px 10px;
@@ -31,7 +32,26 @@ input, button {
     font-weight: normal;
     text-transform: uppercase;
     color: #93C47D;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
+}
+
+input {
+    width: 280px;
+    border: 3px solid #93C47D;
+    margin: 5px 5px;
+    padding: 6px 10px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #93C47D;
+}
+
+li {
+    list-style: none;
+    color: #FFAE39;
+}
+
+.remove {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 30px;
 }
